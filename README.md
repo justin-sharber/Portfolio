@@ -1,5 +1,3 @@
-# Portfolio
-
 # Business Projects
 ## [Commissions Code System](https://github.com/justin-sharber/Commissions_Code)
 A Python-based code system for processing commissions data.  The system automates all calculations and output reports necessary for supporting commissions operations: calculating KPI, auditing and reconciling revenue, calculating sales commissions for sellers.
