@@ -6,7 +6,7 @@ A Python-based code system for processing commissions data.  The system automate
 
 The system consists of three tiers of code, with the lower tiers providing general data functions and preloading new data in a preferred format, ready for review and substantive calculations.
 
-[notebook head snapshot]
+<img width="500" alt="comp data merge nb head" src="https://github.com/user-attachments/assets/efadf303-223b-4f93-a26a-bb812b5af2a9" />
 
 ## [ETL Code System](https://github.com/justin-sharber/ETL-System)
 A Python-based code system for preparing data and loading it into the company BigQuery database.  The system coordinates data from 14 different sources with different formats, preprocessing them to exactly match table schemas in the database.  ETL reads from the company data library and imports it with one click.  It uses new file detection so that only recently added files are imported.
