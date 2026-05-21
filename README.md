@@ -14,5 +14,14 @@ A Python-based code system for preparing data and loading it into the company Bi
 ## [Company Data Pipeline in Google BigQuery](https://github.com/justin-sharber/bigquery-data-pipeline)
 A database and pipeline built in the Google Cloud system, which hosts disparate data for multiple partners, with multiple carriers, and heterogeneous formats.  It draws on hundreds of base sheets and contains over one million records.  The database uses a medallion architecture, with raw data stored as close as possible to the original input sources.  A view-based structure causes data to flow from the bronze layer to end dashboards with no manual assistance.
 
-
 <img width="500" alt="unions-slice" src="https://github.com/user-attachments/assets/1ab5ec62-92c6-4eea-b4ce-bdbbb013855e" />
+
+# Data Science Projects
+## Analysis of Home Mortgage Data / HMDA
+A project that investigates data from home mortgage applications to predict approvals.  This project has two goals:
+1. Predict loan approvals.
+2. Test approval rates for unfair discrimination on identity features (race and sex).
+
+To handle high-cardinality features like lender IDs, the analysis introduces an innovative acceptance-rate binning strategy, drastically reducing the size of the encoded feature set.  Machine learning establishhed a baseline accuracy with logistic regression of 69.1% which was not significantly outperformed by other models, establishing an elementary, independent relationship between independent features and acceptance.  In testing for discrimination, the project utilized a stepwise framework comparing a model built strictly on legitimate financial factors (68.6% accuracy) against one that included protected applicant demographics (68.8% accuracy). The marginal 0.2% difference ultimately supports the conclusion that, on an aggregate level, demographic traits did not play a significant role in mortgage approval decisions once baseline financials were controlled.
+
+<img width="300"  alt="model-comparison" src="https://github.com/user-attachments/assets/f4278f28-7b95-46eb-8ee2-a61352e502a7" />
