@@ -17,7 +17,7 @@ A database and pipeline built in the Google Cloud system, which hosts disparate 
 <img width="500" alt="unions-slice" src="https://github.com/user-attachments/assets/1ab5ec62-92c6-4eea-b4ce-bdbbb013855e" />
 
 # Data Science Projects
-## Analysis of Home Mortgage Data / HMDA
+## [Analysis of Home Mortgage Data / HMDA](https://github.com/justin-sharber/HMDA)
 A project that investigates data from home mortgage applications to predict approvals.  This project has two goals:
 1. Predict loan approvals.
 2. Test approval rates for unfair discrimination on identity features (race and sex).
