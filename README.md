@@ -17,7 +17,8 @@ A Python-based code system for processing commissions data.  The system automate
 
 The system consists of three tiers of code, with the lower tiers providing general data functions and preloading new data in a preferred format, ready for review and substantive calculations. 
 
-<img width="500" alt="merged-data-checks" src="https://github.com/user-attachments/assets/a3205776-9527-414e-b081-94a2ea6cc016" />
+<img width="500" alt="merge_checks_nb" src="https://github.com/user-attachments/assets/44fbf292-5071-49d1-9e59-6d258d5f199e" />
+
 
 
 # Data Science Projects
