@@ -32,7 +32,7 @@ Attempts to predict the Poverty Probability Index (PPI) from survey data.  The t
 
 <img width="400" alt="linear-regression-correlation" src="https://github.com/user-attachments/assets/1743ddca-8838-4bc8-8c30-009aaf19f55a" />
 
-## Can the RDA Nutritional Recommendations Be Satisfied?
+## [Can the RDA Nutritional Recommendations Be Satisfied?](https://github.com/justin-sharber/RDA)
 Investigates whether the RDA nutritional recommendations can be satisfied on whole foods without supplementation.  The project models a person's one-day food intake and nutrition by with a custom, dynamic, multi-value knapsack algorithm.  The project utilizes classes / object-oriented programming to simulate guts and daily food intake.  A deterministic, greedy-algorithmic class `Gut` is deployed to answer the pure question of whether the RDA is satisfiable at all.  Another class, `RandomGut`, tests USDA "MyPlate" dietary guidelines with a 1,000-iteration Monte Carlo simulation. The optimization results reveal that the RDA is broadly satisfiable within a standard 2,600-calorie limit, identifying an artificial "ideal diet" driven by highly nutrient-dense staples like spinach and oysters before tapering into caloric fillers.  The project also demonstrates the general effectiveness of MyPlate recommendations against RDA, with a few consistent nutritional shortfalls.  
 
 <img alt="rand-myplate-nutrient-growth" src="https://github.com/user-attachments/assets/31949a66-6146-4b9f-abca-b471b4407879" />
