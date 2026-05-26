@@ -1,18 +1,21 @@
 # Business Projects
-## [Commissions Code System](https://github.com/justin-sharber/Commissions_Code)
-A Python-based code system for processing commissions data.  The system automates all calculations and output reports necessary for supporting commissions operations: calculating KPI, auditing and reconciling revenue, calculating sales commissions for sellers.
 
-The system consists of three tiers of code, with the lower tiers providing general data functions and preloading new data in a preferred format, ready for review and substantive calculations.
+## [Company Data Pipeline in Google BigQuery](https://github.com/justin-sharber/bigquery-data-pipeline)
+A database and pipeline built in the Google Cloud system, which hosts disparate data for multiple partners, with multiple carriers, and heterogeneous formats.  It draws on hundreds of base sheets and contains over one million records.  The database uses a medallion architecture, with raw data stored as close as possible to the original input sources.  A view-based structure causes data to flow from the bronze layer to end dashboards with no manual assistance.
+
+<img width="500" alt="unions-slice" src="https://github.com/user-attachments/assets/1ab5ec62-92c6-4eea-b4ce-bdbbb013855e" />
 
 ## [ETL Code System](https://github.com/justin-sharber/ETL-System)
 A Python-based code system for preparing data and loading it into the company BigQuery database.  The system coordinates data from 14 different sources with different formats, preprocessing them to exactly match table schemas in the database.  ETL reads from the company data library and imports it with one click.  It uses new file detection so that only recently added files are imported.
 
 <img width="300" alt="etl-flow" src="https://github.com/user-attachments/assets/7df51a58-6673-4a98-a648-b3c00c97137d" />
 
-## [Company Data Pipeline in Google BigQuery](https://github.com/justin-sharber/bigquery-data-pipeline)
-A database and pipeline built in the Google Cloud system, which hosts disparate data for multiple partners, with multiple carriers, and heterogeneous formats.  It draws on hundreds of base sheets and contains over one million records.  The database uses a medallion architecture, with raw data stored as close as possible to the original input sources.  A view-based structure causes data to flow from the bronze layer to end dashboards with no manual assistance.
 
-<img width="500" alt="unions-slice" src="https://github.com/user-attachments/assets/1ab5ec62-92c6-4eea-b4ce-bdbbb013855e" />
+
+## [Commissions Code System](https://github.com/justin-sharber/Commissions_Code)
+A Python-based code system for processing commissions data.  The system automates all calculations and output reports necessary for supporting commissions operations: calculating KPI, auditing and reconciling revenue, calculating sales commissions for sellers.
+
+The system consists of three tiers of code, with the lower tiers providing general data functions and preloading new data in a preferred format, ready for review and substantive calculations. 
 
 # Data Science Projects
 ## [Analysis of Home Mortgage Data](https://github.com/justin-sharber/HMDA)
@@ -30,4 +33,7 @@ Attempts to predict the Poverty Probability Index (PPI) from survey data.  The t
 <img width="400" alt="linear-regression-correlation" src="https://github.com/user-attachments/assets/1743ddca-8838-4bc8-8c30-009aaf19f55a" />
 
 ## Can the RDA Nutritional Recommendations Be Satisfied?
-Investigates whether the RDA nutritional recommendations can be satisfied on whole foods without supplementation.  The project models a person's one-day food intake and nutrition by with a custom, dynamic, multi-value knapsack algorithm.  The project utilizes classes / object-oriented programming to simulate guts and daily food intake.  A deterministic, greedy-algorithmic class `Gut` is deployed to answer the pure question of whether the RDA is satisfiable at all.  Another class, `RandomGut`, tests USDA "MyPlate" dietary guidelines with a 1,000-iteration Monte Carlo simulation. The optimization results reveal that the RDA is broadly satisfiable within a standard 2,600-calorie limit, identifying an artificial "ideal diet" driven by highly nutrient-dense staples like spinach and oysters before tapering into caloric fillers.  The project also demonstrates the general effectiveness of MyPlate recommendations against RDA, with a few consistent nutritional shortfalls.
+Investigates whether the RDA nutritional recommendations can be satisfied on whole foods without supplementation.  The project models a person's one-day food intake and nutrition by with a custom, dynamic, multi-value knapsack algorithm.  The project utilizes classes / object-oriented programming to simulate guts and daily food intake.  A deterministic, greedy-algorithmic class `Gut` is deployed to answer the pure question of whether the RDA is satisfiable at all.  Another class, `RandomGut`, tests USDA "MyPlate" dietary guidelines with a 1,000-iteration Monte Carlo simulation. The optimization results reveal that the RDA is broadly satisfiable within a standard 2,600-calorie limit, identifying an artificial "ideal diet" driven by highly nutrient-dense staples like spinach and oysters before tapering into caloric fillers.  The project also demonstrates the general effectiveness of MyPlate recommendations against RDA, with a few consistent nutritional shortfalls.  
+
+<img alt="rand-myplate-nutrient-growth" src="https://github.com/user-attachments/assets/31949a66-6146-4b9f-abca-b471b4407879" />
+
