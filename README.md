@@ -17,6 +17,9 @@ A Python-based code system for processing commissions data.  The system automate
 
 The system consists of three tiers of code, with the lower tiers providing general data functions and preloading new data in a preferred format, ready for review and substantive calculations. 
 
+<img width="500" alt="merged-data-checks" src="https://github.com/user-attachments/assets/a3205776-9527-414e-b081-94a2ea6cc016" />
+
+
 # Data Science Projects
 ## [Analysis of Home Mortgage Data](https://github.com/justin-sharber/HMDA)
 A project that investigates data from home mortgage applications to predict approvals.  This project has two goals:
