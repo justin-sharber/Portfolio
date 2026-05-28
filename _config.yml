@@ -1,1 +1,5 @@
-theme: jekyll-theme-slate
+#- light colorful
+theme: jekyll-theme-cayman
+
+#- dark grey, professional
+#theme: jekyll-theme-slate
