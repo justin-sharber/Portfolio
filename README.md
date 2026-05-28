@@ -19,9 +19,7 @@ A Python-based code system for processing commissions data.  The system automate
 
 The system consists of three tiers of code, with the lower tiers providing general data functions and preloading new data in a preferred format, ready for review and substantive calculations. 
 
-<img width="500" alt="merge_checks_nb" src="https://github.com/user-attachments/assets/44fbf292-5071-49d1-9e59-6d258d5f199e" />
-
-
+<img width="2563" alt="comp-system-reconst" src="https://github.com/user-attachments/assets/4481384f-9cae-43cb-8abe-a2e4c61fc3f9" />
 
 # Data Science Projects
 ## [Analysis of Home Mortgage Data](https://github.com/justin-sharber/HMDA)
