@@ -25,9 +25,7 @@ A Python-based code system for preparing data and loading it into the company Bi
 
 **[Commissions Repository](https://github.com/justin-sharber/Commissions_Code)**
 
-A Python-based code system for processing commissions data.  The system automates all calculations and output reports necessary for supporting commissions operations: calculating KPI, auditing and reconciling revenue, calculating sales commissions for sellers.
-
-The system consists of three tiers of code, with the lower tiers providing general data functions and preloading new data in a preferred format, ready for review and substantive calculations. 
+A Python-based code system for processing commissions data.  The system automates all calculations and output reports necessary for supporting commissions operations: calculating KPI, auditing and reconciling revenue, calculating sales commissions for sellers.  The system consists of three tiers of code, with the lower tiers providing general data functions and preloading new data in a preferred format, ready for review and substantive calculations. 
 
 <img width="2563" alt="comp-system-reconst" src="https://github.com/user-attachments/assets/4481384f-9cae-43cb-8abe-a2e4c61fc3f9" />
 
