@@ -34,11 +34,7 @@ A Python-based code system for processing commissions data.  The system automate
 
 **[HMDA Repository](https://github.com/justin-sharber/HMDA)**
 
-A project that investigates data from home mortgage applications to predict approvals.  This project has two goals:
-1. Predict loan approvals.
-2. Test approval rates for unfair discrimination on identity features (race and sex).
-
-To handle high-cardinality features like lender IDs, the analysis introduces an innovative acceptance-rate binning strategy, drastically reducing the size of the encoded feature set.  Machine learning establishhed a baseline accuracy with logistic regression of 69.1% which was not significantly outperformed by other models, establishing an elementary, independent relationship between independent features and acceptance.  In testing for discrimination, the project utilized a stepwise framework comparing a model built strictly on legitimate financial factors (68.6% accuracy) against one that included protected applicant demographics (68.8% accuracy). The marginal 0.2% difference ultimately supports the conclusion that, on an aggregate level, demographic traits.
+A project that investigates data from home mortgage applications to predict approvals.  It predicts loan approvals, and tests approval rates for unfair discrimination on identity features (race and sex).  To handle high-cardinality features like lender IDs, the analysis introduces an innovative acceptance-rate binning strategy, drastically reducing the size of the encoded feature set.  Machine learning establishhed a baseline accuracy with logistic regression of 69.1% which was not significantly outperformed by other models, establishing an elementary, independent relationship between independent features and acceptance.  In testing for discrimination, the project utilized a stepwise framework comparing a model built strictly on legitimate financial factors (68.6% accuracy) against one that included protected applicant demographics (68.8% accuracy). The marginal 0.2% difference ultimately supports the conclusion that, on an aggregate level, demographic traits.
 
 <img width="500" alt="model-comparison-plot" src="https://github.com/user-attachments/assets/3175b878-ed64-4ff3-9773-eceeebf5a547" />
 
