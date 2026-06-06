@@ -4,7 +4,7 @@
 
 ## Company Data Pipeline in Google BigQuery
 
-**[BigQuery Repository](https://github.com/justin-sharber/bigquery-data-pipeline)**
+**[BigQuery Repository [Link]](https://github.com/justin-sharber/bigquery-data-pipeline)**
 
 A database and pipeline built in the Google Cloud system, which hosts disparate data for multiple partners, with multiple carriers, and heterogeneous formats.  It draws on hundreds of base sheets and contains over one million records.  The database uses a medallion architecture, with raw data stored as close as possible to the original input sources.  A view-based structure causes data to flow from the bronze layer to end dashboards with no manual assistance.
 
